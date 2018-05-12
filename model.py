@@ -31,3 +31,6 @@ class NetworkModel(Model):
 
     def step(self):
         pass
+
+    def form_ties(self):
+        pass

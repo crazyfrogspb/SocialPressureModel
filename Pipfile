@@ -1,0 +1,27 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.python.org/simple"
+
+[dev-packages]
+jupyter = "*"
+"flake8" = "*"
+"autopep8" = "*"
+sphinxcontrib-napoleon = "*"
+pytest = "*"
+isort = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+pytest-cov = "*"
+jupyterthemes = "*"
+pyment = {git = "https://github.com/dadadel/pyment.git"}
+
+[requires]
+python_version = "3.5"
+
+[packages]
+mesa = "*"
+scipy = "*"
+networkx = "*"
+matplotlib = "*"
+seaborn = "*"
